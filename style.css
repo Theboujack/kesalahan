@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2d2d2d;
+}
+
+.container {
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 10px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+p {
+  font-size: 20px;
+  margin-bottom: 20px;
+  opacity: 0.8;
+}
+
+#countdown {
+  font-size: 30px;
+  font-weight: bold;
+  margin-top: 20px;
+  animation: fadeIn 3s ease-in-out;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
